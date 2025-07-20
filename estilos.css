@@ -514,6 +514,8 @@
 
         .social-icons {
             flex-wrap: wrap;
+            row-gap: 10px;
+            column-gap: 10px;
         }
 
         .social-icon {
