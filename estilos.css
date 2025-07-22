@@ -194,6 +194,17 @@
             animation: neon-glow-secondary 2s ease-in-out infinite alternate;
         }
 
+        h5 {
+            font-family: 'Press Start 2P', monospace;
+            color: rgba(150, 96, 230, 0.7);
+            font-weight: 300;
+            font-size: 1.2rem;
+            text-shadow:
+                0 0 3px rgba(154, 100, 255, 0.4),
+                0 0 6px rgba(200, 72, 255, 0.2);
+            animation: neon-glow-secondary 2s ease-in-out infinite alternate;
+        }
+
         @keyframes neon-glow {
             from {
                 text-shadow:
