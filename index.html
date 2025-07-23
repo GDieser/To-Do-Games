@@ -62,15 +62,35 @@
 
         <section class="games-section" id="games">
             <div class="container">
-                <h2 class="section-title">Lista de proyectos</h2>
+
+                <div class="d-flex justify-content-between">
+                    <h2 class="section-title">Lista de proyectos</h2>
+
+                    <div>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Filtro
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item text-white" href="#" id="filtroTodo">Todo</a></li>
+                                <li><a class="dropdown-item text-white" href="#" id="filtroC41">C25041</a></li>
+                                <li><a class="dropdown-item text-white" href="#" id="filtroC42">C25042</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
 
                 <div class="row">
-                    <div class="col-lg-3 col-md-6">
+                    <!--012-->
+                    <div class="col-lg-3 col-md-6" data-curso="C25042">
                         <div class="game-card">
                             <img src="Images/Min/222.png" class="card-img-top" alt="Game 1">
                             <div class="card-body">
                                 <h5 class="card-title">222.22</h5>
-                                <p class="card-text">A NiGHTS INTO DREAMS and FREEDOM DiVE fangame!.
+                                <p class="card-text">222.22 es un juego de vuelo dinámico 2D estilo arcade inspirado en
+                                    FREEDOM DiVE y NiGHTS into dreams.
                                 </p>
                                 <hr>
 
@@ -88,13 +108,39 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6">
+                    <!--B-->
+                    <div class="col-lg-3 col-md-6" data-curso="C25041">
+                        <div class="game-card">
+                            <img src="Images/Min/BlueTrigger1.png" class="card-img-top" alt="Game 1">
+                            <div class="card-body">
+                                <h5 class="card-title">BlueTrigger</h5>
+                                <p class="card-text">Es un juego de disparos con dos modos de combate, tiene un límite
+                                    de tiempo.
+                                </p>
+                                <hr>
+                                <div class="d-flex justify-content-between align-items-center w-100">
+                                    <p class="card-text m-0">Desarrollado por: Dekoshinae</p>
+
+                                </div>
+
+                                <div style="padding-top: 15px;" class="d-flex flex-column align-items-center gap-2 social-icons mt-2">
+                                    <a class="btn btn-outline-info"
+                                        href="https://dekoshinae.itch.io/bluetrigger">Jugar</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--D-->
+                    <div class="col-lg-3 col-md-6" data-curso="C25042">
                         <div class="game-card">
                             <img src="Images/Min/Daidalos.webp" class="card-img-top" alt="Game 1">
                             <div class="card-body">
                                 <h5 class="card-title">Daidalos</h5>
                                 <p class="card-text">Para encontrar la salida debes elegir la secuencia correcta de
-                                    joyas.
+                                    joyas y simbolos. Controles: mov. horizontal: teclas A, D. Disparo: click derecho.
+                                    Pasar texto: Espacio.
                                 </p>
                                 <hr>
                                 <div class="d-flex justify-content-between align-items-center w-100">
@@ -114,7 +160,8 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6">
+                    <!--G-->
+                    <div class="col-lg-3 col-md-6" data-curso="C25042">
                         <div class="game-card">
                             <img src="Images/Min/Ghostland.png" class="card-img-top" alt="Game 1">
                             <div class="card-body">
@@ -133,7 +180,67 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6">
+                    <!--I-->
+                    <div class="col-lg-3 col-md-6" data-curso="C25041">
+                        <div class="game-card">
+                            <img src="Images/Min/ISHTAR.jpg" class="card-img-top" alt="Game 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Ishtar</h5>
+                                <p class="card-text">ISHTAR, es un juego de plataformas estilo Sega 16 bits de una
+                                    ardilla que llega desde una región lejana por accidente a los Jardines Colgantes de
+                                    Babilonia. Tras el impacto de un meteorito, que desencadena una plaga, es designada
+                                    por la Diosa Ishtar para ayudar a un médico y a un hechicero a salvar a la
+                                    comunidad.
+                                </p>
+                                <hr>
+                                <div class="d-flex justify-content-between align-items-center w-100">
+                                    <p class="card-text m-0">Desarrollado por: Arias Villa</p>
+                                    <a href="https://drive.google.com/file/d/1yZ0ENa64f1sxXMc_5bIwMdCCENsG_vPR/view" target="_blank"
+                                        class="text-white text-decoration-none" data-bs-toggle="tooltip"
+                                        title="Web">
+                                        <img src='Images/web.png' alt="GitHub" class="social-icon" />
+                                    </a>
+                                </div>
+
+                                <div class="d-flex flex-column align-items-center gap-2 social-icons mt-2">
+                                    <a class="btn btn-outline-info"
+                                        href="https://play.unity.com/en/games/31c352c6-c6c4-4f83-9b9c-c74ba1b1c7fa/ishtar-demo">Jugar</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--L-->
+                    <div class="col-lg-3 col-md-6" data-curso="C25041">
+                        <div class="game-card">
+                            <img src="Images/Min/LaGranja.png" class="card-img-top" alt="Game 1">
+                            <div class="card-body">
+                                <h5 class="card-title">La Granja de Joey</h5>
+                                <p class="card-text">Es un juego de granja, en el cual podes plantar y cultivar plantas,
+                                    criar animales, vender cosecha y lo que producen los animales.
+                                </p>
+                                <hr>
+                                <div class="d-flex justify-content-between align-items-center w-100">
+                                    <p class="card-text m-0">Desarrollado por: danialb94</p>
+                                    <a href="https://www.linkedin.com/in/daniela-cristina-albarracin-42b860187/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                        target="_blank" class="text-white text-decoration-none" data-bs-toggle="tooltip"
+                                        title="LinkedIn">
+                                        <img src='Images/lind.png' alt="GitHub" class="social-icon" />
+                                    </a>
+                                </div>
+
+                                <div class="d-flex flex-column align-items-center gap-2 social-icons mt-2">
+                                    <a class="btn btn-outline-info"
+                                        href="https://play.unity.com/en/games/1815a1fb-edaf-4b6f-a432-79b5acd96805/la-granja-de-joey">Jugar</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--M-->
+                    <div class="col-lg-3 col-md-6" data-curso="C25042">
                         <div class="game-card">
                             <img src="Images/Min/Mollitiam.png" class="card-img-top" alt="Game 1">
                             <div class="card-body">
@@ -172,16 +279,46 @@
                                         class="text-white text-decoration-none" data-bs-toggle="tooltip" title="web">
                                         <img src='Images/web.png' alt="Portfolio" class="social-icon" />
                                     </a>
-                                    
+
                                 </div>
                                 <div class="d-flex flex-column align-items-center gap-2 social-icons mt-2">
-                                        <a class="btn btn-outline-info"
-                                            href="https://mollitiam-topdown.netlify.app/">Jugar</a>
-                                    </div>
+                                    <a class="btn btn-outline-info"
+                                        href="https://mollitiam-topdown.netlify.app/">Jugar</a>
+                                </div>
 
                             </div>
                         </div>
                     </div>
+
+                    <!--S-->
+                    <div class="col-lg-3 col-md-6" data-curso="C25041">
+                        <div class="game-card">
+                            <img src="Images/Min/Secret_Agent.jpg" class="card-img-top" alt="Game 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Secret Agent</h5>
+                                <p class="card-text">Remake del Secret Agent de MS-DOS desarrollado por Apogee. A
+                                    diferencia del remake oficial (también hecho en Unity), esta versión usa los sprites
+                                    del juego clásico. Está completo (16 niveles y overworld). Debería poder verse bien
+                                    en cualquier resolución, siempre que corra en una PC de escritorio o notebook.
+                                </p>
+                                <hr>
+                                <div class="d-flex justify-content-between align-items-center w-100">
+                                    <p class="card-text m-0">Desarrollado por: Gabriel iakantas</p>
+                                    <a href="https://www.linkedin.com/in/gabriel-iakantas/" target="_blank"
+                                        class="text-white text-decoration-none" data-bs-toggle="tooltip"
+                                        title="LinkedIn">
+                                        <img src='Images/lind.png' alt="GitHub" class="social-icon" />
+                                    </a>
+                                </div>
+
+                                <div class="d-flex flex-column align-items-center gap-2 social-icons mt-2">
+                                    <a class="btn btn-outline-info" href="https://secretagent1.netlify.app/">Jugar</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
@@ -193,7 +330,7 @@
         <section class="info-section" id="info">
 
             <div class="container">
-                <h2 class="section-title">Equipo C25042</h2>
+                <h2 class="section-title">Equipo C25041/C25042</h2>
 
                 <div class="row">
                     <div class="col-md-6">
@@ -325,6 +462,41 @@
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const filtroTodo = document.getElementById('filtroTodo');
+            const filtroC41 = document.getElementById('filtroC41');
+            const filtroC42 = document.getElementById('filtroC42');
+
+            filtroTodo.addEventListener('click', function (e) {
+                e.preventDefault();
+                filtrarCards('todo');
+            });
+
+            filtroC41.addEventListener('click', function (e) {
+                e.preventDefault();
+                filtrarCards('C25041');
+            });
+
+            filtroC42.addEventListener('click', function (e) {
+                e.preventDefault();
+                filtrarCards('C25042');
+            });
+
+            function filtrarCards(curso) {
+                const cards = document.querySelectorAll('[data-curso]');
+
+                cards.forEach(card => {
+                    card.classList.add('d-none');
+
+                    if (curso === 'todo' || card.getAttribute('data-curso') === curso) {
+                        card.classList.remove('d-none');
+                    }
+                });
+            }
+        });
+    </script>
 
 </body>
 
