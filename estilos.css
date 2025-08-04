@@ -238,14 +238,15 @@
         }
 
         .games-section {
-            padding: 3rem 0;
+            padding: 15px 0;
         }
 
         .section-title {
             position: relative;
             display: inline-block;
             margin-bottom: 2rem;
-            color: rgb(194, 194, 194);
+            color: rgb(245, 245, 245);
+            font-size: 1.6rem;
         }
 
         .section-title::after {
