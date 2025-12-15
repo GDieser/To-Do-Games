@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="">
+
+    <title>To Do Games </title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <style>
+        :root {
+
+            --bg-img: url('Images/back1.jpg');
+        }
+    </style>
+
+</head>
+
+<body>
+    <main>
+
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand" href="#home"> <img src="Images/logo.png" alt="Logo" class="navbar-logo me-2">
+                    To-Do</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href='#home'>Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Proyectos 2D</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href='#games'>Proyectos 3D</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href='#info'>Info</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="hero-section" id="home">
+            <div class="container">
+                <h1 class="display-4">Bienvenido a To-Do Games</h1>
+                <h2 class="lead">Proyectos de TalentoTech - 2025</h2>
+                <hr>
+                <br>
+                <p class="lead">Explora los juegos creados durante el curso de Unity 3D</p>
+                <div class="scroll-indicator">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="games-section" id="games">
+            <div class="container">
+
+                <div class="d-flex justify-content-between">
+                    <h2 class="section-title">Lista de proyectos</h2>
+
+                </div>
+
+                <div class="row">
+                    <!--012-->
+                    <div class="col-lg-3 col-md-6" data-curso="C25042">
+                        <div class="game-card">
+                            <img src="Images/Min3d/Mneme.PNG" class="card-img-top" alt="Game 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Mneme</h5>
+                                <p class="card-text">Juego de terror ambiental/psicólogico, con mecánicas de Walking Simulator, inspirado en LSD DreamSimulator.
+                                </p>
+                                <hr>
+
+                                <div class="d-flex justify-content-between align-items-center w-100">
+                                    <p class="card-text m-0">Desarrollado por: Germán Dieser</p>
+                                    <a href="https://github.com/GDieser" target="_blank"
+                                        class="text-white text-decoration-none" data-bs-toggle="tooltip" title="web">
+                                        <img src='Images/git.png' alt="Portfolio" class="social-icon" />
+                                    </a>
+                                </div>
+                                <div class="d-flex flex-column align-items-center gap-2 social-icons mt-2">
+                                    <a class="btn btn-outline-danger" href="https://github.com/GDieser">Proximamente...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="info-section" id="info">
+
+            <div class="container">
+                <h2 class="section-title">Equipo C25242</h2>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="info-card team-card">
+                            <div class="team-photo">
+                                <img src="Images/Lih.PNG" alt="Lihuel" class="rounded-circle">
+                            </div>
+                            <div class="team-info">
+                                <h3>Lihuel</h3>
+                                <p>Profesor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="info-card team-card">
+                            <div class="team-photo">
+                                <img src="Images/Ama.PNG" alt="Amancay" class="rounded-circle">
+                            </div>
+                            <div class="team-info">
+                                <h3>Amancay</h3>
+                                <p>Tutora</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="section-title">Info</h2>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="info-card">
+                            <h3>Sobre el Curso</h3>
+                            <p>El curso de Unity 3D de TalentoTech nos permitió desarrollar habilidades en el
+                                motor de juegos Unity y herramientas de .Net, aprendiendo desde los fundamentos hasta
+                                técnicas de
+                                programación y diseño de videojuegos.</p>
+
+                            <p>Más información en: <a
+                                    href="https://talentotech.bue.edu.ar/#/trayectos/1050">TalentoTech</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="info-card">
+                        <h3>Tecnologías Utilizadas</h3>
+                        <p>Unity 2D, C#, Tilemaps, Physics 3D, Animation, UI System, Particle Systems, Scriptable
+                            Objects y mucho más para crear experiencias de juego completas.</p>
+                        <hr>
+                        <div class="row mt-4">
+                            <div class="col-12">
+
+                                <div class="d-flex justify-content-center flex-wrap gap-4">
+                                    <div class="tech-logo">
+                                        <img src="Images/Unity2.png" alt="Unity" class="img-fluid">
+                                        <p class="text-center mt-2">Unity</p>
+                                    </div>
+                                    <div class="tech-logo">
+                                        <img src="Images/csharp.png" alt="C#" class="img-fluid">
+                                        <p class="text-center mt-2">C#</p>
+                                    </div>
+                                    <div class="tech-logo">
+                                        <img src="Images/itchio2.png" alt="Itch.io" class="img-fluid">
+                                        <p class="text-center mt-2">Itch.io</p>
+                                    </div>
+                                    <div class="tech-logo">
+                                        <img src="Images/moodle.png" alt="Moodle" class="img-fluid">
+                                        <p class="text-center mt-2">Moodle</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h1 class="text-center">🎮¡Gracias por visitar!🎮</h1>
+                <h2 class="text-center">Esperamos lo hayas pasado bien</h2>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-glass py-4 mt-auto">
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 text-center text-md-start">
+                    <h6 class="text-uppercase mb-3 footer-title">To Do Games</h5>
+                        <p class="footer-text">Esta página fue desarrollada para mostrar el trabajo realizado durante
+                            la cursada de TalentoTech en el curso Unity 3D</p>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6 text-center text-md-end">
+                    <h6 class="text-uppercase mb-3 footer-title">Mis Redes</h5>
+                        <div class="social-icons d-flex justify-content-end justify-content-md-end gap-3">
+                            <a href="https://github.com/GDieser" target="_blank" class="text-white"
+                                data-bs-toggle="tooltip" title="GitHub">
+                                <img src='Images/git.png' alt="GitHub" class="social-icon" />
+                            </a>
+                            <a href="https://www.linkedin.com/in/german-dieser/" target="_blank" class="text-white"
+                                data-bs-toggle="tooltip" title="LinkedIn">
+                                <img src='Images/lind.png' alt="Linkedin" class="social-icon" />
+                            </a>
+                            <a href="https://www.instagram.com/ger_ed18/" target="_blank" class="text-white"
+                                data-bs-toggle="tooltip" title="Instagram">
+                                <img src='Images/insta.png' alt="Instagram" class="social-icon" />
+                            </a>
+                        </div>
+                </div>
+
+            </div>
+
+            <hr class="my-4 footer-divider">
+
+            <div class="footer-bottom row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="small mb-0">&copy; 2025 Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="small mb-0">Desarrollado por <span class="developer-badge"><a class="text-white"
+                                href="https://gdieser.vercel.app/">Germán Dieser</a></span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>

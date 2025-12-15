@@ -4,6 +4,7 @@
             --dark-bg: #121212;
             --darker-bg: #0a0a0a;
             --card-bg: rgba(30, 30, 30, 0.7);
+            --bg-img: url('Images/back3.jpg');
         }
 
         body {
@@ -11,7 +12,7 @@
             color: #f8f9fa;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-image:
-                url('Images/back3.jpg'),
+                var(--bg-img),
                 radial-gradient(circle at 25% 25%, rgba(100, 255, 218, 0.05) 0%, transparent 50%),
                 radial-gradient(circle at 75% 75%, rgba(100, 100, 255, 0.05) 0%, transparent 50%);
             background-size: cover;
